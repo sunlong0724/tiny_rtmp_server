@@ -10,9 +10,12 @@
 
 #include "h264_2_rtmp.h"
 #include "h264_2_rtmp_manager.h"
-
-#include "hikConnect.h"
 #include "RingBuffer.h"
+
+#ifdef HIK
+#include "hikConnect.h"
+#endif
+
 
 using namespace std;
 
@@ -133,7 +136,6 @@ int main(int argc, char** argv){
     CycleBuffer *pcycleBuffer = new CycleBuffer;
     CH264_2_RTMP_Manager::start("live", pcycleBuffer);
 
-#define HIK
 #ifdef  HIK
     HikConn hik_conn( pcycleBuffer );
     hik_conn.Login();

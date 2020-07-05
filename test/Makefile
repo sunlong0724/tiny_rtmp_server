@@ -1,13 +1,18 @@
 
 include ../config.MK
+
+OBJS = main.o
+INC_PATH = -I . -I ../code  
+
+ifdef HIK
 OBJS =  main.o hikConnect.o
+INC_PATH = -I . -I ../code -I ./hikvision 
+LIBS = -Wl,-rpath=./hikvision/lib/HCNetSDKCom -lhcnetsdk -lhpr -lHCCore
+endif
 
 TARGET = test_h264_2_rtmp
 
-INC_PATH = -I . -I ../code -I ./hikvision 
-
 LIBS_PATH = -L ../bin
-LIBS = -Wl,-rpath=./hikvision/lib/HCNetSDKCom -lhcnetsdk -lhpr -lHCCore
 
 $(TARGET): $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $^ $(INC_PATH) $(LIBS) $(LIBS_PATH) -ltiny_rtmp_server -lpthread
@@ -21,5 +26,4 @@ $(TARGET): $(OBJS)
 
 clean:
 	rm -f *.o ../bin/$(TARGET)
-	rm -f *.o ../bin/$(TARGET)_hik
 .PHONY: $(TARGET) clean
