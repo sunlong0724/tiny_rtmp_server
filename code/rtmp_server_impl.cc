@@ -981,7 +981,7 @@ void rtmp_server_cls::handle_connect(Client *client, double txid, Decoder *dec)
 		ver = flashver.as_string();
 	}
 
-	if (app != m_suffix)
+	if (app != "live")//m_suffix)
 	{
 		throw std::runtime_error("Unsupported application: " + app);
 	}

@@ -75,7 +75,7 @@ const char* CH264_2_RTMP::start(const char* stream_name, have_data_cb _cb, void*
                                 });
 
     std::string local_ip =  get_local_ip();
-    sprintf(m_rtmp_url, "rtmp://%s:%d/%s", local_ip.c_str(), m_port, m_stream_name);
+    sprintf(m_rtmp_url, "rtmp://%s:%d/live/%s", local_ip.c_str(), m_port, m_stream_name);
 
     fprintf(stdout," %s %s\n", __FUNCTION__, m_rtmp_url);
     return m_rtmp_url;
@@ -134,7 +134,7 @@ void CH264_2_RTMP::run(){
                 }
 
                 if (i != m_sps_buf_len){
-                    fprintf(stdout,"%s %d %d\n", __FUNCTION__, m_sps_buf_len, i);
+                    fprintf(stdout,"%s %d %d %d\n", __FUNCTION__, m_sps_buf_len, i, frame_type);
                     m_sps_buf_len = i;
                     if (m_sps_buf) delete [] m_sps_buf;
                     m_sps_buf = new char[ m_sps_buf_len ];
@@ -157,7 +157,7 @@ void CH264_2_RTMP::run(){
                
                 int pps_l = i - m_sps_buf_len;
                 if ( m_pps_buf_len != pps_l ){
-                    fprintf(stdout,"%s %d %d\n", __FUNCTION__, m_pps_buf_len, pps_l);
+                    fprintf(stdout,"#%s %d %d %d\n", __FUNCTION__, m_pps_buf_len, pps_l, frame_type);
                     m_pps_buf_len = pps_l;
                     if (m_pps_buf) delete [] m_pps_buf;
                     m_pps_buf = new char[ m_pps_buf_len ];
@@ -186,7 +186,7 @@ void CH264_2_RTMP::run(){
                     ++i;
                 }
                 if (i != m_pps_buf_len){
-                    fprintf(stdout,"%s %d %d\n", __FUNCTION__, m_pps_buf_len, i);
+                    fprintf(stdout,"##%s %d %d %d\n", __FUNCTION__, m_pps_buf_len, i, frame_type);
                     m_pps_buf_len = i;
                     if (m_pps_buf) delete [] m_pps_buf;
                     m_pps_buf = new char[ m_pps_buf_len ];

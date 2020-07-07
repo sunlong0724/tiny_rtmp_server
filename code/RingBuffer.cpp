@@ -208,7 +208,7 @@ bool CycleBuffer::InitQueue()
 {
     m_pRingBuffer = new RINGBUFFER();
     m_pRingBuffer->ifront = m_pRingBuffer->iend = 0;
-    m_pRingBuffer->buffSize = 15;//MAXCYCLEBUFFSIZE;
+    m_pRingBuffer->buffSize = 25*2;//MAXCYCLEBUFFSIZE;
     m_pRingBuffer->m_pBuff = new unsigned long[MAXCYCLEBUFFSIZE];
     
     /*

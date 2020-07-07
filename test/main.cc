@@ -132,9 +132,11 @@ static int on_have_data_cb_impl_file( char* buf, int buf_max_len, void* user ){
 int main(int argc, char** argv){
 
     signal( 2, sig_cb );
+    
+    const char* stream_name = "stream1";
 
     CycleBuffer *pcycleBuffer = new CycleBuffer;
-    CH264_2_RTMP_Manager::start("live", pcycleBuffer);
+    CH264_2_RTMP_Manager::start(stream_name, pcycleBuffer);
 
 #ifdef  HIK
     HikConn hik_conn( pcycleBuffer );
@@ -160,7 +162,7 @@ int main(int argc, char** argv){
         std::this_thread::sleep_for( std::chrono::milliseconds( 2 ) );
     }
 
-    CH264_2_RTMP_Manager::stop("live");
+    CH264_2_RTMP_Manager::stop(stream_name);
 
 
     return 0;

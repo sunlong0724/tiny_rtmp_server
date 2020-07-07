@@ -38,7 +38,7 @@ typedef struct tag_h264_nalu_queue
 
 
 
- h264_nalu_queue *h264_nalu_queue_create(int max_len=10,int max_frame_rate=30,int min_frame_rate=20);
+ h264_nalu_queue *h264_nalu_queue_create(int max_len=30,int max_frame_rate=30,int min_frame_rate=20);
 
  void h264_nalu_queue_destroy(h264_nalu_queue *queue);
 

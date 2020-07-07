@@ -1,0 +1,193 @@
+22:43:02.811167 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [S], seq 3419195286, win 43690, options [mss 65495,sackOK,TS val 17351804 ecr 0,nop,wscale 7], length 0
+22:43:02.811217 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [S.], seq 1824169489, ack 3419195287, win 43690, options [mss 65495,sackOK,TS val 17351804 ecr 17351804,nop,wscale 7], length 0
+22:43:02.811242 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 1, win 342, options [nop,nop,TS val 17351804 ecr 17351804], length 0
+22:43:02.813058 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [P.], seq 1:1538, ack 1, win 342, options [nop,nop,TS val 17351806 ecr 17351804], length 1537
+22:43:02.813105 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [.], ack 1538, win 1365, options [nop,nop,TS val 17351806 ecr 17351806], length 0
+22:43:02.813135 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 1:2, ack 1538, win 1365, options [nop,nop,TS val 17351806 ecr 17351806], length 1
+22:43:02.813144 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 2, win 342, options [nop,nop,TS val 17351806 ecr 17351806], length 0
+22:43:02.813219 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 2:1538, ack 1538, win 1365, options [nop,nop,TS val 17351806 ecr 17351806], length 1536
+22:43:02.813228 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 1538, win 1365, options [nop,nop,TS val 17351806 ecr 17351806], length 0
+22:43:02.813248 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 1538:3074, ack 1538, win 1365, options [nop,nop,TS val 17351806 ecr 17351806], length 1536
+22:43:02.813257 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 3074, win 2388, options [nop,nop,TS val 17351806 ecr 17351806], length 0
+22:43:02.813947 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [P.], seq 1538:3454, ack 3074, win 2388, options [nop,nop,TS val 17351807 ecr 17351806], length 1916
+22:43:02.814357 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 3074:3292, ack 3454, win 2388, options [nop,nop,TS val 17351807 ecr 17351807], length 218
+22:43:02.835823 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [P.], seq 3454:3492, ack 3292, win 2412, options [nop,nop,TS val 17351829 ecr 17351807], length 38
+22:43:02.836002 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 3292:3333, ack 3492, win 2388, options [nop,nop,TS val 17351829 ecr 17351829], length 41
+22:43:02.837061 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [P.], seq 3492:3514, ack 3333, win 2412, options [nop,nop,TS val 17351830 ecr 17351829], length 22
+22:43:02.854488 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [P.], seq 3514:3568, ack 3333, win 2412, options [nop,nop,TS val 17351847 ecr 17351829], length 54
+22:43:02.854588 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [.], ack 3568, win 2388, options [nop,nop,TS val 17351847 ecr 17351830], length 0
+22:43:02.854685 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 3333:3460, ack 3568, win 2388, options [nop,nop,TS val 17351847 ecr 17351830], length 127
+22:43:02.893837 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 3460, win 2412, options [nop,nop,TS val 17351887 ecr 17351847], length 0
+22:43:02.893882 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 3460:3610, ack 3568, win 2388, options [nop,nop,TS val 17351887 ecr 17351887], length 150
+22:43:02.893895 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 3610, win 2436, options [nop,nop,TS val 17351887 ecr 17351887], length 0
+22:43:03.498146 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 3610:3628, ack 3568, win 2388, options [nop,nop,TS val 17352491 ecr 17351887], length 18
+22:43:03.498204 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 3628, win 2436, options [nop,nop,TS val 17352491 ecr 17352491], length 0
+22:43:03.498251 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 3628:3682, ack 3568, win 2388, options [nop,nop,TS val 17352491 ecr 17352491], length 54
+22:43:03.498274 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 3682, win 2436, options [nop,nop,TS val 17352491 ecr 17352491], length 0
+22:43:03.498341 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 3682:7778, ack 3568, win 2388, options [nop,nop,TS val 17352491 ecr 17352491], length 4096
+22:43:03.498357 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 7778, win 3459, options [nop,nop,TS val 17352491 ecr 17352491], length 0
+22:43:03.498399 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 7778:10336, ack 3568, win 2388, options [nop,nop,TS val 17352491 ecr 17352491], length 2558
+22:43:03.498414 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 10336, win 3635, options [nop,nop,TS val 17352491 ecr 17352491], length 0
+22:43:03.558820 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 10336:11212, ack 3568, win 2388, options [nop,nop,TS val 17352551 ecr 17352491], length 876
+22:43:03.558856 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 11212, win 3635, options [nop,nop,TS val 17352552 ecr 17352551], length 0
+22:43:03.599153 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 11212:12473, ack 3568, win 2388, options [nop,nop,TS val 17352592 ecr 17352552], length 1261
+22:43:03.599196 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 12473, win 3635, options [nop,nop,TS val 17352592 ecr 17352592], length 0
+22:43:03.639509 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 12473:13906, ack 3568, win 2388, options [nop,nop,TS val 17352632 ecr 17352592], length 1433
+22:43:03.639547 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 13906, win 3635, options [nop,nop,TS val 17352632 ecr 17352632], length 0
+22:43:03.679897 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 13906:15783, ack 3568, win 2388, options [nop,nop,TS val 17352673 ecr 17352632], length 1877
+22:43:03.679941 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 15783, win 3635, options [nop,nop,TS val 17352673 ecr 17352673], length 0
+22:43:03.720227 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 15783:17316, ack 3568, win 2388, options [nop,nop,TS val 17352713 ecr 17352673], length 1533
+22:43:03.720266 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 17316, win 3635, options [nop,nop,TS val 17352713 ecr 17352713], length 0
+22:43:03.760627 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 17316:18996, ack 3568, win 2388, options [nop,nop,TS val 17352753 ecr 17352713], length 1680
+22:43:03.760671 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 18996, win 3635, options [nop,nop,TS val 17352753 ecr 17352753], length 0
+22:43:03.800962 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 18996:20583, ack 3568, win 2388, options [nop,nop,TS val 17352794 ecr 17352753], length 1587
+22:43:03.801010 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 20583, win 3635, options [nop,nop,TS val 17352794 ecr 17352794], length 0
+22:43:03.841372 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 20583:22329, ack 3568, win 2388, options [nop,nop,TS val 17352834 ecr 17352794], length 1746
+22:43:03.841417 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 22329, win 3635, options [nop,nop,TS val 17352834 ecr 17352834], length 0
+22:43:03.881735 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 22329:24187, ack 3568, win 2388, options [nop,nop,TS val 17352874 ecr 17352834], length 1858
+22:43:03.881796 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 24187, win 3635, options [nop,nop,TS val 17352875 ecr 17352874], length 0
+22:43:03.922150 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 24187:26482, ack 3568, win 2388, options [nop,nop,TS val 17352915 ecr 17352875], length 2295
+22:43:03.922198 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 26482, win 3635, options [nop,nop,TS val 17352915 ecr 17352915], length 0
+22:43:03.962547 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 26482:28233, ack 3568, win 2388, options [nop,nop,TS val 17352955 ecr 17352915], length 1751
+22:43:03.962595 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 28233, win 3635, options [nop,nop,TS val 17352955 ecr 17352955], length 0
+22:43:04.023064 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 28233:30193, ack 3568, win 2388, options [nop,nop,TS val 17353016 ecr 17352955], length 1960
+22:43:04.023133 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 30193, win 3635, options [nop,nop,TS val 17353016 ecr 17353016], length 0
+22:43:04.063941 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 30193:32332, ack 3568, win 2388, options [nop,nop,TS val 17353057 ecr 17353016], length 2139
+22:43:04.063985 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 32332, win 3635, options [nop,nop,TS val 17353057 ecr 17353057], length 0
+22:43:04.104361 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 32332:36428, ack 3568, win 2388, options [nop,nop,TS val 17353097 ecr 17353057], length 4096
+22:43:04.104409 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 36428, win 3635, options [nop,nop,TS val 17353097 ecr 17353097], length 0
+22:43:04.104475 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 36428:38639, ack 3568, win 2388, options [nop,nop,TS val 17353097 ecr 17353097], length 2211
+22:43:04.104567 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 38639, win 3635, options [nop,nop,TS val 17353097 ecr 17353097], length 0
+22:43:04.144881 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 38639:41252, ack 3568, win 2388, options [nop,nop,TS val 17353138 ecr 17353097], length 2613
+22:43:04.145039 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 41252, win 3635, options [nop,nop,TS val 17353138 ecr 17353138], length 0
+22:43:04.185211 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 41252:43718, ack 3568, win 2388, options [nop,nop,TS val 17353178 ecr 17353138], length 2466
+22:43:04.185385 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 43718, win 3635, options [nop,nop,TS val 17353178 ecr 17353178], length 0
+22:43:04.225596 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 43718:46644, ack 3568, win 2388, options [nop,nop,TS val 17353218 ecr 17353178], length 2926
+22:43:04.225755 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 46644, win 3635, options [nop,nop,TS val 17353218 ecr 17353218], length 0
+22:43:04.265942 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 46644:49640, ack 3568, win 2388, options [nop,nop,TS val 17353259 ecr 17353218], length 2996
+22:43:04.266119 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 49640, win 3635, options [nop,nop,TS val 17353259 ecr 17353259], length 0
+22:43:04.306273 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 49640:52473, ack 3568, win 2388, options [nop,nop,TS val 17353299 ecr 17353259], length 2833
+22:43:04.306411 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 52473, win 3635, options [nop,nop,TS val 17353299 ecr 17353299], length 0
+22:43:04.346625 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 52473:55351, ack 3568, win 2388, options [nop,nop,TS val 17353339 ecr 17353299], length 2878
+22:43:04.346863 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 55351, win 3635, options [nop,nop,TS val 17353340 ecr 17353339], length 0
+22:43:04.386915 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 55351:58140, ack 3568, win 2388, options [nop,nop,TS val 17353380 ecr 17353340], length 2789
+22:43:04.387097 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 58140, win 3635, options [nop,nop,TS val 17353380 ecr 17353380], length 0
+22:43:04.427257 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 58140:60772, ack 3568, win 2388, options [nop,nop,TS val 17353420 ecr 17353380], length 2632
+22:43:04.427404 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 60772, win 3635, options [nop,nop,TS val 17353420 ecr 17353420], length 0
+22:43:04.467606 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 60772:63509, ack 3568, win 2388, options [nop,nop,TS val 17353460 ecr 17353420], length 2737
+22:43:04.467847 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 63509, win 3635, options [nop,nop,TS val 17353460 ecr 17353460], length 0
+22:43:04.510215 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 63509:66457, ack 3568, win 2388, options [nop,nop,TS val 17353503 ecr 17353460], length 2948
+22:43:04.510395 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 66457, win 3635, options [nop,nop,TS val 17353503 ecr 17353503], length 0
+22:43:04.570627 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 66457:69082, ack 3568, win 2388, options [nop,nop,TS val 17353563 ecr 17353503], length 2625
+22:43:04.570760 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 69082, win 3635, options [nop,nop,TS val 17353563 ecr 17353563], length 0
+22:43:04.610958 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 69082:71560, ack 3568, win 2388, options [nop,nop,TS val 17353604 ecr 17353563], length 2478
+22:43:04.611071 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 71560, win 3635, options [nop,nop,TS val 17353604 ecr 17353604], length 0
+22:43:04.651252 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 71560:74046, ack 3568, win 2388, options [nop,nop,TS val 17353644 ecr 17353604], length 2486
+22:43:04.651362 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 74046, win 3635, options [nop,nop,TS val 17353644 ecr 17353644], length 0
+22:43:04.691615 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 74046:76565, ack 3568, win 2388, options [nop,nop,TS val 17353684 ecr 17353644], length 2519
+22:43:04.691754 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 76565, win 3635, options [nop,nop,TS val 17353684 ecr 17353684], length 0
+22:43:04.731958 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 76565:79073, ack 3568, win 2388, options [nop,nop,TS val 17353725 ecr 17353684], length 2508
+22:43:04.732068 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 79073, win 3635, options [nop,nop,TS val 17353725 ecr 17353725], length 0
+22:43:04.772246 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 79073:81527, ack 3568, win 2388, options [nop,nop,TS val 17353765 ecr 17353725], length 2454
+22:43:04.772406 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 81527, win 3635, options [nop,nop,TS val 17353765 ecr 17353765], length 0
+22:43:04.812597 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 81527:84419, ack 3568, win 2388, options [nop,nop,TS val 17353805 ecr 17353765], length 2892
+22:43:04.812737 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 84419, win 3635, options [nop,nop,TS val 17353805 ecr 17353805], length 0
+22:43:04.852901 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 84419:87061, ack 3568, win 2388, options [nop,nop,TS val 17353846 ecr 17353805], length 2642
+22:43:04.853059 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 87061, win 3635, options [nop,nop,TS val 17353846 ecr 17353846], length 0
+22:43:04.913473 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 87061:89790, ack 3568, win 2388, options [nop,nop,TS val 17353906 ecr 17353846], length 2729
+22:43:04.913614 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 89790, win 3635, options [nop,nop,TS val 17353906 ecr 17353906], length 0
+22:43:04.953856 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 89790:92667, ack 3568, win 2388, options [nop,nop,TS val 17353947 ecr 17353906], length 2877
+22:43:04.954013 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 92667, win 3635, options [nop,nop,TS val 17353947 ecr 17353947], length 0
+22:43:04.994184 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 92667:95254, ack 3568, win 2388, options [nop,nop,TS val 17353987 ecr 17353947], length 2587
+22:43:04.994338 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 95254, win 3635, options [nop,nop,TS val 17353987 ecr 17353987], length 0
+22:43:05.034534 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 95254:98264, ack 3568, win 2388, options [nop,nop,TS val 17354027 ecr 17353987], length 3010
+22:43:05.034647 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 98264, win 3635, options [nop,nop,TS val 17354027 ecr 17354027], length 0
+22:43:05.074822 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 98264:101112, ack 3568, win 2388, options [nop,nop,TS val 17354067 ecr 17354027], length 2848
+22:43:05.074973 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 101112, win 3635, options [nop,nop,TS val 17354068 ecr 17354067], length 0
+22:43:05.115093 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 101112:103871, ack 3568, win 2388, options [nop,nop,TS val 17354108 ecr 17354068], length 2759
+22:43:05.115201 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 103871, win 3635, options [nop,nop,TS val 17354108 ecr 17354108], length 0
+22:43:05.155398 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 103871:106638, ack 3568, win 2388, options [nop,nop,TS val 17354148 ecr 17354108], length 2767
+22:43:05.155515 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 106638, win 3635, options [nop,nop,TS val 17354148 ecr 17354148], length 0
+22:43:05.195761 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 106638:109664, ack 3568, win 2388, options [nop,nop,TS val 17354188 ecr 17354148], length 3026
+22:43:05.195908 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 109664, win 3635, options [nop,nop,TS val 17354189 ecr 17354188], length 0
+22:43:05.236158 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 109664:112624, ack 3568, win 2388, options [nop,nop,TS val 17354229 ecr 17354189], length 2960
+22:43:05.236330 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 112624, win 3635, options [nop,nop,TS val 17354229 ecr 17354229], length 0
+22:43:05.276516 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 112624:115241, ack 3568, win 2388, options [nop,nop,TS val 17354269 ecr 17354229], length 2617
+22:43:05.276695 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 115241, win 3635, options [nop,nop,TS val 17354269 ecr 17354269], length 0
+22:43:05.316870 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 115241:118222, ack 3568, win 2388, options [nop,nop,TS val 17354310 ecr 17354269], length 2981
+22:43:05.317034 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 118222, win 3635, options [nop,nop,TS val 17354310 ecr 17354310], length 0
+22:43:05.377879 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 118222:121178, ack 3568, win 2388, options [nop,nop,TS val 17354371 ecr 17354310], length 2956
+22:43:05.378014 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 121178, win 3635, options [nop,nop,TS val 17354371 ecr 17354371], length 0
+22:43:05.418225 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 121178:124017, ack 3568, win 2388, options [nop,nop,TS val 17354411 ecr 17354371], length 2839
+22:43:05.418388 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 124017, win 3635, options [nop,nop,TS val 17354411 ecr 17354411], length 0
+22:43:05.458567 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 124017:126878, ack 3568, win 2388, options [nop,nop,TS val 17354451 ecr 17354411], length 2861
+22:43:05.458728 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 126878, win 3635, options [nop,nop,TS val 17354451 ecr 17354451], length 0
+22:43:05.459979 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [P.], seq 3568:3580, ack 126878, win 3635, options [nop,nop,TS val 17354453 ecr 17354451], length 12
+22:43:05.499835 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [.], ack 3580, win 2388, options [nop,nop,TS val 17354493 ecr 17354453], length 0
+22:43:05.500347 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 126878:129698, ack 3580, win 2388, options [nop,nop,TS val 17354493 ecr 17354453], length 2820
+22:43:05.539834 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 129698, win 3635, options [nop,nop,TS val 17354533 ecr 17354493], length 0
+22:43:05.540669 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 129698:132503, ack 3580, win 2388, options [nop,nop,TS val 17354533 ecr 17354533], length 2805
+22:43:05.540885 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 132503, win 3635, options [nop,nop,TS val 17354534 ecr 17354533], length 0
+22:43:05.581006 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 132503:135214, ack 3580, win 2388, options [nop,nop,TS val 17354574 ecr 17354534], length 2711
+22:43:05.581151 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 135214, win 3635, options [nop,nop,TS val 17354574 ecr 17354574], length 0
+22:43:05.621362 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 135214:135268, ack 3580, win 2388, options [nop,nop,TS val 17354614 ecr 17354574], length 54
+22:43:05.621597 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 135268, win 3635, options [nop,nop,TS val 17354614 ecr 17354614], length 0
+22:43:05.621629 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 135268:145969, ack 3580, win 2388, options [nop,nop,TS val 17354614 ecr 17354614], length 10701
+22:43:05.660835 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 145969, win 3635, options [nop,nop,TS val 17354654 ecr 17354614], length 0
+22:43:05.661766 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 145969:148006, ack 3580, win 2388, options [nop,nop,TS val 17354654 ecr 17354654], length 2037
+22:43:05.661902 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 148006, win 3635, options [nop,nop,TS val 17354655 ecr 17354654], length 0
+22:43:05.702139 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 148006:150250, ack 3580, win 2388, options [nop,nop,TS val 17354695 ecr 17354655], length 2244
+22:43:05.702314 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 150250, win 3635, options [nop,nop,TS val 17354695 ecr 17354695], length 0
+22:43:05.742509 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 150250:152944, ack 3580, win 2388, options [nop,nop,TS val 17354735 ecr 17354695], length 2694
+22:43:05.742674 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 152944, win 3635, options [nop,nop,TS val 17354735 ecr 17354735], length 0
+22:43:05.782872 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 152944:155861, ack 3580, win 2388, options [nop,nop,TS val 17354776 ecr 17354735], length 2917
+22:43:05.783011 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 155861, win 3635, options [nop,nop,TS val 17354776 ecr 17354776], length 0
+22:43:05.843351 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 155861:158681, ack 3580, win 2388, options [nop,nop,TS val 17354836 ecr 17354776], length 2820
+22:43:05.843521 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 158681, win 3635, options [nop,nop,TS val 17354836 ecr 17354836], length 0
+22:43:05.883734 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 158681:161634, ack 3580, win 2388, options [nop,nop,TS val 17354876 ecr 17354836], length 2953
+22:43:05.883912 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 161634, win 3635, options [nop,nop,TS val 17354877 ecr 17354876], length 0
+22:43:05.924127 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 161634:164805, ack 3580, win 2388, options [nop,nop,TS val 17354917 ecr 17354877], length 3171
+22:43:05.924302 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 164805, win 3635, options [nop,nop,TS val 17354917 ecr 17354917], length 0
+22:43:05.964511 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 164805:167819, ack 3580, win 2388, options [nop,nop,TS val 17354957 ecr 17354917], length 3014
+22:43:05.964690 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 167819, win 3635, options [nop,nop,TS val 17354957 ecr 17354957], length 0
+22:43:06.004878 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 167819:171044, ack 3580, win 2388, options [nop,nop,TS val 17354998 ecr 17354957], length 3225
+22:43:06.005028 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 171044, win 3635, options [nop,nop,TS val 17354998 ecr 17354998], length 0
+22:43:06.045318 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 171044:174217, ack 3580, win 2388, options [nop,nop,TS val 17355038 ecr 17354998], length 3173
+22:43:06.045460 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 174217, win 3635, options [nop,nop,TS val 17355038 ecr 17355038], length 0
+22:43:06.085700 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 174217:177326, ack 3580, win 2388, options [nop,nop,TS val 17355078 ecr 17355038], length 3109
+22:43:06.085861 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 177326, win 3635, options [nop,nop,TS val 17355079 ecr 17355078], length 0
+22:43:06.126074 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 177326:180454, ack 3580, win 2388, options [nop,nop,TS val 17355119 ecr 17355079], length 3128
+22:43:06.126230 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 180454, win 3635, options [nop,nop,TS val 17355119 ecr 17355119], length 0
+22:43:06.166410 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 180454:184550, ack 3580, win 2388, options [nop,nop,TS val 17355159 ecr 17355119], length 4096
+22:43:06.166596 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 184550, win 3635, options [nop,nop,TS val 17355159 ecr 17355159], length 0
+22:43:06.166638 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 184550:185237, ack 3580, win 2388, options [nop,nop,TS val 17355159 ecr 17355159], length 687
+22:43:06.166724 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 185237, win 3635, options [nop,nop,TS val 17355159 ecr 17355159], length 0
+22:43:06.206799 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 185237:188490, ack 3580, win 2388, options [nop,nop,TS val 17355199 ecr 17355159], length 3253
+22:43:06.206953 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 188490, win 3635, options [nop,nop,TS val 17355200 ecr 17355199], length 0
+22:43:06.247105 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 188490:191861, ack 3580, win 2388, options [nop,nop,TS val 17355240 ecr 17355200], length 3371
+22:43:06.247272 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 191861, win 3635, options [nop,nop,TS val 17355240 ecr 17355240], length 0
+22:43:06.287474 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 191861:194415, ack 3580, win 2388, options [nop,nop,TS val 17355280 ecr 17355240], length 2554
+22:43:06.287616 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 194415, win 3635, options [nop,nop,TS val 17355280 ecr 17355280], length 0
+22:43:06.347899 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 194415:196710, ack 3580, win 2388, options [nop,nop,TS val 17355341 ecr 17355280], length 2295
+22:43:06.348115 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 196710, win 3635, options [nop,nop,TS val 17355341 ecr 17355341], length 0
+22:43:06.388239 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 196710:197969, ack 3580, win 2388, options [nop,nop,TS val 17355381 ecr 17355341], length 1259
+22:43:06.388406 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 197969, win 3635, options [nop,nop,TS val 17355381 ecr 17355381], length 0
+22:43:06.428597 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 197969:200975, ack 3580, win 2388, options [nop,nop,TS val 17355421 ecr 17355381], length 3006
+22:43:06.428784 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 200975, win 3635, options [nop,nop,TS val 17355421 ecr 17355421], length 0
+22:43:06.468913 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 200975:204817, ack 3580, win 2388, options [nop,nop,TS val 17355462 ecr 17355421], length 3842
+22:43:06.469097 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 204817, win 3635, options [nop,nop,TS val 17355462 ecr 17355462], length 0
+22:43:06.509288 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 204817:208913, ack 3580, win 2388, options [nop,nop,TS val 17355502 ecr 17355462], length 4096
+22:43:06.509453 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 208913, win 3635, options [nop,nop,TS val 17355502 ecr 17355502], length 0
+22:43:06.509482 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 208913:209176, ack 3580, win 2388, options [nop,nop,TS val 17355502 ecr 17355502], length 263
+22:43:06.509557 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 209176, win 3635, options [nop,nop,TS val 17355502 ecr 17355502], length 0
+22:43:06.549676 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 209176:213272, ack 3580, win 2388, options [nop,nop,TS val 17355542 ecr 17355502], length 4096
+22:43:06.549866 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 213272, win 3635, options [nop,nop,TS val 17355543 ecr 17355542], length 0
+22:43:06.549908 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 213272:215273, ack 3580, win 2388, options [nop,nop,TS val 17355543 ecr 17355543], length 2001
+22:43:06.549990 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 215273, win 3635, options [nop,nop,TS val 17355543 ecr 17355543], length 0
+22:43:06.590026 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 215273:216765, ack 3580, win 2388, options [nop,nop,TS val 17355583 ecr 17355543], length 1492
+22:43:06.590156 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 216765, win 3635, options [nop,nop,TS val 17355583 ecr 17355583], length 0
+22:43:06.630391 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [P.], seq 216765:218416, ack 3580, win 2388, options [nop,nop,TS val 17355623 ecr 17355583], length 1651
+22:43:06.630613 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 218416, win 3635, options [nop,nop,TS val 17355623 ecr 17355623], length 0
+22:43:06.651475 IP 127.0.0.1.macromedia-fcs > 127.0.0.1.52086: Flags [F.], seq 218416, ack 3580, win 2388, options [nop,nop,TS val 17355644 ecr 17355623], length 0
+22:43:06.690836 IP 127.0.0.1.52086 > 127.0.0.1.macromedia-fcs: Flags [.], ack 218417, win 3635, options [nop,nop,TS val 17355684 ecr 17355644], length 0
+
